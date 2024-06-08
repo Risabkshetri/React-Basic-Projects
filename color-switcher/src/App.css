@@ -1,0 +1,89 @@
+h1{
+  background: slategrey;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  font-size: 3rem;
+}
+h2{
+  text-align: center;
+  font-size: 2.5rem;
+  background: slategrey;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+}
+/* #header{
+  padding: 5px;
+  background: slategrey;
+} */
+#container {
+  width: 70rem;
+  height: 5rem;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background: wheat;
+  color: black !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#container > button {
+  width: 10%;
+  height: 60px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: black 3px 1px;
+}
+
+#container > button:hover{
+  box-shadow:white 3px 1px;
+}
+
+#red{
+  background: red;
+}
+#green{
+  background: green;
+}
+#blue{
+  background: blue;
+}
+#olive{
+  background: olive;
+}
+#gray{
+  background: gray;
+}
+#yellow{
+  background: yellow;
+}
+#pink{
+  background: pink;
+}
+#purple{
+  background: purple;
+}
+#lavender{
+  background: lavender;
+}
+#white{
+  background: white;
+}
+#black{
+  background: black;
+  color: white !important;
+}
