@@ -52,38 +52,3 @@ h2{
 #container > button:hover{
   box-shadow:white 3px 1px;
 }
-
-#red{
-  background: red;
-}
-#green{
-  background: green;
-}
-#blue{
-  background: blue;
-}
-#olive{
-  background: olive;
-}
-#gray{
-  background: gray;
-}
-#yellow{
-  background: yellow;
-}
-#pink{
-  background: pink;
-}
-#purple{
-  background: purple;
-}
-#lavender{
-  background: lavender;
-}
-#white{
-  background: white;
-}
-#black{
-  background: black;
-  color: white !important;
-}

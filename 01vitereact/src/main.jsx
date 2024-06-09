@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
+import Chai from './chai'
+import App from './App.jsx'
 
 // const reactElement = {
 //     type: "a",
@@ -22,11 +23,16 @@ const userName = ' Rishab Kshetri' // injecting dynamic data
 const reactElement = React.createElement(
     'a',
     { href: 'https://reactjs.org', target: '_blank', rel: 'noopener noreferrer' },
-    'Visit React web', userName
+    'Visit React web',
+    userName
 ) // This will also work because here we use createElement using react library syntax.
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    // <App />
-    reactElement
+    <>
+    <App />
+   {reactElement}
+    <Chai />
+    </>
+    
 )

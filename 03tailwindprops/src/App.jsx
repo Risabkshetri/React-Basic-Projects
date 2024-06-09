@@ -7,19 +7,19 @@ import Card from './component/card'
 function App() {
 
   // const [count, setCount] = useState(0)
-   let myObj = {
-    username: "rishab kshetri",
-    age: 19,
-    address: "pune"
-   }
+  //  let myObj = {
+  //   username: "rishab kshetri",
+  //   age: 19,
+  //   address: "pune"
+  //  }
 
-  let myArr = ["rishab", "kshetri", "pune"]
+  // let myArr = ["rishab", "kshetri", "pune"]
 
   return (
     <>
       <h1 className ="bg-green-500 p-4 hover:bg-red-950 rounded-xl">Tailwind Props</h1>
-      <Card username = "youtube" obj = {myObj}/>
-      <Card username = "facebook" arr = {myArr}/>
+      <Card />
+      <Card/>
       {/* <div className="overflow-hidden bg-white py-24 sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+/* body{
 
   background-color: #121212;
   color: #fff;
@@ -15,4 +15,4 @@ body{
   width: 100vw;
   overflow: hidden;
   margin: 0;
-}
+}  */

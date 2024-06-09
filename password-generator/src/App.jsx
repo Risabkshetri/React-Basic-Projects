@@ -34,7 +34,7 @@ const passwordRef = useRef(null);
  }, [generatePassword, numberAllowed, symbolAllowed, length]);
   return (
      
-      <div className="w-full max-w-md max-auto h-24 shadow-md rounded-lg px-4 text-orange-500 bg-gray-800 my-8">
+      <div className=" text-center min-w-full max-w-md max-auto h-32 shadow-md rounded-lg px-4 text-orange-500 bg-gray-800 my-8">
       <h1 className='text-2xl text-center text-white '>Password Generator</h1>
         <div className="flex  shadow rounded-lg overflow-hidden mb-4">
           <input
