@@ -2,9 +2,9 @@
 import styled from "styled-components";
 import { GlobalStyle } from "./Styles/globalStyles";
 import { useFormik } from "formik";
-import { signupSchema } from "./schemas";
+import signupSchema from "./schemas/index";
 
-const SignUp = () => {
+const SignUP = () => {
   const initialValues = {
     name: "",
     email: "",
@@ -304,4 +304,4 @@ const Wrapper = styled.section`
   }
 `;
 
-export default SignUp;
+export default SignUP;
