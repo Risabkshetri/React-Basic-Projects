@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-right: 40px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type = "number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type = "date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: large;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
+button:hover {
+  background-color: blue;
+}
